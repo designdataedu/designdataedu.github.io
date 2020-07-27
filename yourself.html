@@ -130,7 +130,7 @@
 									<span class="fh5co-character"><img alt="Image of a person sitting at a desk and working on a computer." src="images/data-questioner.png"></span>
 									<h3 class="fh5co-feature-lead">Data Questioner</h3>
 									<p class="fh5co-feature-text">You love the thrill of identifying a question area to explore! You can't wait to see what questions to frame and learn from.</p>
-									<button class="btn btn-primary select">select</button>
+									<button class="btn btn-primary characterBtn">select</button>
 								</a>
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12">
@@ -138,7 +138,7 @@
 									<span class="fh5co-character"><img alt="Image of a person casually sitting on the floor and working on a laptop." src="images/data-explorer.png"></span>
 									<h3 class="fh5co-feature-lead">Data Explorer</h3>
 									<p class="fh5co-feature-text">You want to explore what the data is saying, identify patterns, and extract insights based on your interaction with data.</p>
-									<button class="btn btn-primary select">select</button>
+									<button class="btn btn-primary characterBtn">select</button>
 								</a>
 							</div>
 						</div>
@@ -149,7 +149,7 @@
 									<span class="fh5co-character"><img alt="Image of a person looking at different charts and graphs floating in the air." src="images/data-visualizer.png"></span>
 									<h3 class="fh5co-feature-lead">Data Visualizer</h3>
 									<p class="fh5co-feature-text">Nothing excites you more than graphs and charts. Okay, maybe other than food. You can't wait to play around with visuals and think through how to communicate insights with the data.</p>
-									<button class="btn btn-primary select">select</button>
+									<button class="btn btn-primary characterBtn">select</button>
 								</a>
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12">
@@ -157,7 +157,7 @@
 									<span class="fh5co-character"><img alt="Image of someone pointing to the contents on a phone screen." src="images/data-wanderer.png"></span>
 									<h3 class="fh5co-feature-lead">Data Wanderer</h3>
 									<p class="fh5co-feature-text">You're uncertain about what your identity in this data world is! Click here to discover more your data profile character based on answers to your prior experience.</p>
-									<button class="btn btn-primary select">select</button>
+									<button class="btn btn-primary characterBtn">select</button>
 								</a>
 							</div>
 								</div>
@@ -513,8 +513,10 @@
 									</p>
 								</div>
 
-								<div class="col-md-8 col-md-offset-2 fh5co-section-heading">
-									<h2 class="fh5co-lead text-center">Recommended Path</h2>
+								<!-- Recommended path -->
+								<div class="col-md-8 col-md-offset-2 text-center fh5co-section-heading">
+									<h2 class="fh5co-lead">Recommended Path</h2>
+									<p class="fh5co-sub to-animate">Click on one of the three modules to begin</p>
 								</div>
 								<!-- WORK -->
 								<div id="steps" class="container">
@@ -532,13 +534,49 @@
 									</a>
 								</div>
 
+
 								<!---->
 
-								<div class="clearfix visible-sm-block"></div>
-								<div class="fh5co-spacer fh5co-spacer-sm"></div>
-								<div class="col-md-4 col-md-offset-4 text-center">
-									<a href="code.html" class="btn btn-primary">Continue >></a>
+								<div id="datasets-menu" class="hide row">
+									<div class="col-md-8 col-md-offset-2 fh5co-section-heading text-center">
+										<h2 class="fh5co-lead to-animate">Choose a Dataset</h2>
+										<p class="fh5co-sub to-animate">Which dataset would you most want to explore? Click the one that interests you most.</p>
+									</div>
+									<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+										<a href="#" onclick="return false;" class="dataset fh5co-feature to-animate">
+											<span class="fh5co-character"><img alt="Icon of two people watching Netflix." src="images/netflix-database.png"></span>
+											<h3 class="fh5co-feature-lead">Netflix Database</h3>
+											<p class="fh5co-feature-text">All TV shows and movies available on Netflix as of 2019, with information such as director, cast, country of origin, duration and release year.</p>
+											<button class="btn btn-primary datasetBtn">select</button>
+										</a>
+									</div>
+									<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+										<a href="#" onclick="return false;" class="dataset fh5co-feature to-animate">
+											<span class="fh5co-character"><img alt="Icon of the Earth smiling." src="images/world-happiness.png"></span>
+											<h3 class="fh5co-feature-lead">World Happiness</h3>
+											<p class="fh5co-feature-text">Happiness score per country in 2018, with variables such as freedom to make life choices and perception of corruption.</p>
+											<button class="btn btn-primary datasetBtn">select</button>
+										</a>
+									</div>
+									<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
+										<a href="#" onclick="return false;" class="dataset fh5co-feature to-animate">
+											<span class="fh5co-character"><img alt="Icon of a play button surrounded by soundwaves." src="images/spotify-data.png"></span>
+											<h3 class="fh5co-feature-lead">Spotify Data</h3>
+											<p class="fh5co-feature-text">Includes information on 12k+ tracks on Spotify, from artist to release date to “danceability.”</p>
+											<button class="btn btn-primary datasetBtn">select</button>
+										</a>
+									</div>
 								</div>
+
+								<div id="continue" class="hide">
+									<div class="clearfix visible-sm-block"></div>
+									<div class="fh5co-spacer fh5co-spacer-sm"></div>
+									<div class="col-md-4 col-md-offset-4 text-center">
+										<a href="code.html" class="btn btn-primary">Continue >></a>
+									</div>
+								</div>
+
+
 
 
 							</div>
