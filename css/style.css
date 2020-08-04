@@ -3681,7 +3681,7 @@ select[multiple].input-lg,
   border: 1px solid transparent;
   white-space: nowrap;
   padding: 14px 12px;
-  font-size: 14px;
+  font-size: medium;
   line-height: 1.42857;
   border-radius: 4px;
   -webkit-user-select: none;
@@ -7348,7 +7348,7 @@ button.close {
 *
 * ======================================================= */
 body {
-  font-family: "ABeeZee", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -7378,7 +7378,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Heebo", arial, sans-serif;
+  font-family: "Inter", arial, sans-serif;
   font-weight: 700;
 }
 
@@ -7531,7 +7531,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-size: 15px;
   letter-spacing: 2px;
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: "Inter", arial, sans-serif;
   z-index: 99;
   float: left;
   color: #444;
@@ -7572,7 +7572,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 16px;
   position: relative;
   z-index: 10;
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: "Inter", arial, sans-serif;
   color: #fff;
 }
 .fh5co-menu-btn i {
@@ -7651,7 +7651,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-hero .fh5co-intro h2 {
   color: #212353;#fff;
   font-size: 50px;
-  line-height: 50px;
+  /*line-height: 50px;*/
   font-weight: 700;
 }
 @media screen and (max-width: 768px) {
@@ -7661,7 +7661,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #fh5co-hero .fh5co-intro p {
-  font-style: italic;
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: .05em;
@@ -7690,7 +7689,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2px;
   font-size: 20px;
   float: left !important;
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: "Inter", arial, sans-serif;
   color: #212353; #fff;
   z-index: 10;
   position: relative;
@@ -7759,22 +7758,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-pricing {
+  color: #fff;
+  background: #8567AE;
   padding: 7em 0;
   position: relative;
-  border-bottom: 1px solid #f2f2f2;
 }
+
 #fh5co-pricing .fh5co-price {
   padding-top: 1em;
   display: block;
   font-size: 50px;
   line-height: 50px;
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: "Inter", arial, sans-serif;
   color: #4fd2c2;
 }
 #fh5co-pricing .fh5co-price > span {
   font-size: 16px;
   line-height: 16px;
-  font-family: "ABeeZee", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 400;
   color: #ccc;
 }
@@ -8074,7 +8075,7 @@ h1, h2, h3, h4, h5, h6 {
 .fh5co-feature .fh5co-feature-lead, .fh5co-feature .fh5co-figure-lead, .fh5co-figure .fh5co-feature-lead, .fh5co-figure .fh5co-figure-lead {
   font-size: 12px;
   letter-spacing: 2px;
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: "Inter", arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -8137,7 +8138,7 @@ h1, h2, h3, h4, h5, h6 {
 .fh5co-uppercase-sm {
   font-size: 12px;
   letter-spacing: 2px;
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: "Inter", arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -8146,6 +8147,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2em;
 }
 .fh5co-section-heading .fh5co-lead {
+  color: #212353;
   font-size: 45px;
   line-height: 60px;
 }
@@ -8161,6 +8163,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 .fh5co-section-heading .fh5co-sub {
+  color: #212353;
   font-size: 18px;
   line-height: 30px;
 }
@@ -8234,7 +8237,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #fh5co-testimony .fh5co-author {
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: "Inter", arial, sans-serif;
   color: #fff;
 }
 @media screen and (max-width: 480px) {
@@ -8327,9 +8330,9 @@ pre {
 
 /* Buttons */
 .btn {
-  font-family: "Montserrat", arial, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 4px;
+  font-family: "Inter", arial, sans-serif;
+  /*text-transform: uppercase;
+  letter-spacing: 4px;*/
   margin-bottom: 20px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
@@ -8338,12 +8341,12 @@ pre {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 4rem;
+  padding-right: 4rem;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-right: 10px;
-  font-size: 11px;
+  font-size: medium;
   font-weight: 400;
 }
 .btn:hover, .btn:focus, .btn:active {
@@ -8409,7 +8412,7 @@ pre {
   box-shadow: none !important;
   border: 2px solid #444;
   background: transparent;
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: "Inter", arial, sans-serif;
 }
 .form-control:hover, .form-control:focus, .form-control:active {
   outline: none;
@@ -8461,7 +8464,7 @@ pre {
   color: #878c93;
   position: fixed;
   bottom: 0;
-  font-family: 'ABeeZee', Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
   font-weight: 300;
 }
 #fh5co-footer .fh5co-overlay {
@@ -8500,7 +8503,7 @@ pre {
 }
 #fh5co-footer .fh5co-lead {
   font-size: 13px;
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: "Inter", arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
   color: #fff;
@@ -8519,7 +8522,7 @@ pre {
   margin-bottom: 10px;
 }
 #fh5co-footer .fh5co-footer-logo a {
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: "Inter", arial, sans-serif;
   font-size: 20px;
   letter-spacing: 2px;
   color: #ccc;
@@ -8784,7 +8787,7 @@ pre {
   margin-top: 12px;
   color: #212353;#fff;
   margin-left: -70px;
-  font-family: "Heebo", arial, sans-serif;
+  font-family: "Inter", arial, sans-serif;
   letter-spacing: 2px;
   font-size: 15px;
   text-transform: uppercase;
@@ -8908,7 +8911,7 @@ pre {
   display: block;
   color: #fff;
   width: 100%;
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: "Inter", arial, sans-serif;
   margin-bottom: .5em;
 }
 
@@ -8916,7 +8919,7 @@ pre {
   color: #fff;
   text-transform: uppercase;
   font-size: 13px;
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: "Inter", arial, sans-serif;
   letter-spacing: 5px;
   margin-bottom: 2em;
   display: block;
@@ -9050,7 +9053,7 @@ a > img.fh5co-align-center {
 .interest label {
   font-size: 1.5rem;
   letter-spacing: 2px;
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: "Inter", arial, sans-serif;
   text-transform: uppercase;
 }
 
@@ -9168,6 +9171,10 @@ form label {
   width: 10%;
 }
 
+.btn-secondary {
+  background: #fff;
+  color: #8567AE;
+}
 
 
 
